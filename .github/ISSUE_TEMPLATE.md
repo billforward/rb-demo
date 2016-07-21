@@ -15,7 +15,7 @@ The widget adds functionality Y
 
 #### Cause
 
-Customers complaints that we don't support Y
+Customers query that we don't support Y
 
 #### Go-live date
 
