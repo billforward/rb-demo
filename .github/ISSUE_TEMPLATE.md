@@ -11,7 +11,7 @@ Need a widget put on the dashboard
 
 #### Justification
 
-The widget add functionality Y
+The widget adds functionality Y
 
 #### Cause
 
