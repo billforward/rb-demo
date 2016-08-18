@@ -6,7 +6,7 @@ Pry::rescue{
   api = BillForward::InvoicesApi.new config.client
 
   request = {
-      "id": "INV-5E94521D-38BD-4B10-B765-D1BBC0B6",
+      "id": "INV-9EA0806B-310C-4728-B02C-21EB37B8",
       "state": "Unpaid",
       "paymentAmount": 1.00
   }

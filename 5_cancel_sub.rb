@@ -10,7 +10,7 @@ Pry::rescue{
   })
 
 
-  subscription_id = 'SUB-7C1579CD-2070-4988-B3C4-8092088C'
+  subscription_id = 'SUB-8D9B11BA-DE04-4F01-A4F4-29DF5F03'
 
   begin
     # cancel

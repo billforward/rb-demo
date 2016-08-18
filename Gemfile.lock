@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     awesome_print (1.7.0)
-    bf_ruby2 (1.2016.229)
+    bf_ruby2 (1.2016.230)
       json (~> 1.8, >= 1.8.3)
       typhoeus (~> 1.0, >= 1.0.1)
     binding_of_caller (0.7.2)
@@ -38,7 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  bf_ruby2 (~> 1.2016.229)
+  bf_ruby2 (~> 1.2016.230)
   pry
   pry-byebug
   pry-rescue

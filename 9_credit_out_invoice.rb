@@ -5,10 +5,11 @@ Pry::rescue{
 
   api = BillForward::InvoicesApi.new config.client
 
-  request = BillForward::Refund.new ({
-  })
+  request = {
+    "forcePaid":true
+  }
 
-  invoice_id = "INV-B85EC16E-CC7E-4298-9540-E09EB87C"
+  invoice_id = "INV-9EA0806B-310C-4728-B02C-21EB37B8"
 
   begin
     result = api.execute_invoice(invoice_id, request)

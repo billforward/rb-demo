@@ -6,14 +6,14 @@ Pry::rescue{
   sub_api = BillForward::SubscriptionsApi.new config.client
 
   sub_request = BillForward::CreateSubscriptionRequest.new ({
-      "accountID": "ACC-42398CA6-2907-4BFC-B213-BD033211",
+      "accountID": "ACC-7C87AA63-79BA-40CB-B5EC-78C867E7",
       "name": "name",
       "description": "desc",
       "product": "SaaS",
       "productRatePlan": "standard",
       "state": "AwaitingPayment",
       "pricingComponentQuantities": [ {
-          "pricingComponent": "users",
+          "pricingComponent": "seats",
           "quantity": "20",
           "percentageDiscount": 50
       }]

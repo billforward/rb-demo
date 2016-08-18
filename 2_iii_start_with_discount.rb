@@ -10,6 +10,7 @@ Pry::rescue{
     "coupons":10000,
     "currency": "usd",
     "uses":1,
+    "parentCouponCodeRedeemable":true,
     "discounts":[
       {
         "percentageDiscount":50
@@ -29,7 +30,7 @@ Pry::rescue{
   sub_api = BillForward::SubscriptionsApi.new config.client
 
   sub_request = {
-      "accountID": "ACC-42398CA6-2907-4BFC-B213-BD033211",
+      "accountID": "ACC-7C87AA63-79BA-40CB-B5EC-78C867E7",
       "name": "name",
       "description": "desc",
       "product": "SaaS",
