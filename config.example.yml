@@ -1,0 +1,9 @@
+config:
+  host: "api-sandbox.billforward.net:433"
+  scheme: "https"
+  base_path: "v1"
+  debugging: false
+client:
+  access_token: "INSERT-ACCESS-TOKEN"
+  logger:
+    level: "DEBUG"

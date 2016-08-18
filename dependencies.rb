@@ -1,0 +1,8 @@
+require 'bundler/setup'
+require 'bf_ruby2'
+require 'yaml'
+require 'json'
+require 'pp'
+require 'pry'
+require 'awesome_print'
+require_relative 'acquire_client'

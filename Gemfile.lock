@@ -1,0 +1,48 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.7.0)
+    bf_ruby2 (1.2016.229)
+      json (~> 1.8, >= 1.8.3)
+      typhoeus (~> 1.0, >= 1.0.1)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    byebug (9.0.5)
+    coderay (1.1.1)
+    debug_inspector (0.0.2)
+    ethon (0.9.0)
+      ffi (>= 1.3.0)
+    ffi (1.9.14)
+    interception (0.5)
+    json (1.8.3)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    pry-rescue (1.4.4)
+      interception (>= 0.5)
+      pry
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    slop (3.6.0)
+    typhoeus (1.1.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  bf_ruby2 (~> 1.2016.229)
+  pry
+  pry-byebug
+  pry-rescue
+  pry-stack_explorer
+
+BUNDLED WITH
+   1.12.5
